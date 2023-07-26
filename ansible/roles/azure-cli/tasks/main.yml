@@ -17,7 +17,7 @@
     - apt-transport-https
     - lsb-release
     - gnupg
-    #- "azure-cli=2.33.1-1~{{ ansible_distribution_release | lower }}"
+    - "azure-cli=2.33.1-1~{{ ansible_distribution_release | lower }}"
 
 - name: Install azcopy
   shell: |
