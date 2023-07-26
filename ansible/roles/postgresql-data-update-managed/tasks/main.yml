@@ -29,7 +29,7 @@
   apt:
     name: postgresql-client
     state: present
-    update_cache: yes
+    #update_cache: yes
 
 - name: Create the schema for quartz db
   postgresql_db:
